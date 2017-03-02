@@ -4,12 +4,11 @@
 
 **Jekyll Now** makes it easier to create Jekyll blogs, by eliminating a lot of the setup. ([Jekyll Now Repository](https://github.com/barryclark/jekyll-now))
 
-**Jekyll Shooot** makes it easier to create Jekyll portfolios, by adding [Jribbble](https://github.com/tylergaw/jribbble) (a [jQuery](https://github.com/jquery/jquery) plugin), [Flexboxgrid-sass](https://github.com/hugeinc/flexboxgrid-sass) and more...
+**Jekyll Shooot** makes it easier to create Jekyll portfolios, by adding [Jribbble](https://github.com/tylergaw/jribbble) & [jQuery](https://github.com/jquery/jquery), [Flexboxgrid-sass](https://github.com/hugeinc/flexboxgrid-sass) and more...
 
 ### Build a Jekyll-dribbble portfolio in minutes, without touching the command line!
 
 Check it out in [this repository](https://github.com/benkalsky/benkalsky.github.io) and of course, the [portfolio here](http://benkalsky.net).
-
 
 - You don't need to touch the command line
 - You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
@@ -31,7 +30,7 @@ Your Jekyll blog will often be viewable immediately at <http://username.github.i
 
 Enter your site name, description, avatar and many other options by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
 
-**Important:** you must enter a Dribbble `Username` and `Client Access Token` to generate the portfolio ([Read more](https://github.com/tylergaw/jribbble#setting-your-apps-client-access-token)).
+#### **Important:** you must enter a Dribbble `Username` and `Client Access Token` to generate the portfolio ([Read more](https://github.com/tylergaw/jribbble#setting-your-apps-client-access-token)).
 
 Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <http://username.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon
 
@@ -54,3 +53,22 @@ Edit `/_posts/2017-3-1-Hello-World.html` to publish your first blog post. This [
 3. Serve the site and watch for markup/sass changes `jekyll serve`
 4. View your website at http://127.0.0.1:4000/
 5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+
+## Questions?
+
+[Open an Issue](https://github.com/benkalsky/jekyll-shooot/issues/new) and let's chat!
+
+## Credits
+
+- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
+- [Jekyll Now](https://github.com/barryclark/jekyll-now) - Thank you @barryclark, and all your helpers :)
+- [Jribbble](https://github.com/tylergaw/jribbble) - Thank you @tylergaw, great work!
+- [Flexboxgrid-sass](https://github.com/hugeinc/flexboxgrid-sass) - @hugeinc, thanks guys.
+
+## Contributing
+
+Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
+
+You can start by [opening an issue](https://github.com/benkalsky/jekyll-shooot/issues/new) describing the problem that you're looking to resolve and we'll go from there.
+
+I want to keep Jekyll Shooot as minimal as possible. Every line of code should be one that's useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it's not something that most people will use, it probably won't get merged. :guardsman:

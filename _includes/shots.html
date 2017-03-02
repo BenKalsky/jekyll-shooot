@@ -1,7 +1,7 @@
 {% if site.dribbble-token %}
   <script>
     $.jribbble.setToken('{{ site.dribbble-token }}');
-    $.jribbble.users('{{ site.dribbble }}').shots({per_page: 62}).then(function(shots) {
+    $.jribbble.users('{{ site.dribbble-username }}').shots({per_page: 62}).then(function(shots) {
       var html = [];
 
       shots.forEach(function(shot) {
