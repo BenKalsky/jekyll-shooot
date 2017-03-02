@@ -50,7 +50,8 @@ dribbble-token:
 # (http://username.github.io/repository-name)
 # and NOT your User repository (http://username.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+# If not keep empty like this => baseurl: ""
+baseurl: "/jekyll-shooot"
 
 #
 # !! You don't need to change any of the configuration flags below !!
