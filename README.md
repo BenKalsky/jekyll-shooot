@@ -61,9 +61,9 @@ Edit `/_posts/2017-3-1-Hello-World.html` to publish your first blog post. This [
 ## Credits
 
 - [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [Jekyll Now](https://github.com/barryclark/jekyll-now) - Thank you @barryclark, and all your helpers :)
-- [Jribbble](https://github.com/tylergaw/jribbble) - Thank you @tylergaw, great work!
-- [Flexboxgrid-sass](https://github.com/hugeinc/flexboxgrid-sass) - @hugeinc, thanks guys.
+- [Jekyll Now](https://github.com/barryclark/jekyll-now) - Thank you [@barryclark](https://github.com/barryclark), and all your helpers :)
+- [Jribbble](https://github.com/tylergaw/jribbble) - Thank you [@tylergaw](https://github.com/tylergaw), great work!
+- [Flexboxgrid-sass](https://github.com/hugeinc/flexboxgrid-sass) - [@hugeinc](https://github.com/hugeinc), thanks guys.
 
 ## Contributing
 
