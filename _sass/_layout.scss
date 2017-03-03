@@ -10,7 +10,7 @@
 
   &:after {
     content: '';
-    border-bottom: 1px solid rgba($darkBlue, .1);
+    border-bottom: 1px solid rgba($darkGreen, .1);
     width: 100%;
     position: absolute;
     left: 0;
@@ -30,23 +30,14 @@
 
 .site-name {
   margin: 0;
-  color: $darkBlue;
+  color: $darkGreen;
   cursor: pointer;
   font-weight: 700;
-  transition: .2s;
-
-  a {
-    color: $darkBlue;
-
-    &:hover {
-      color: rgba($darkBlue, .8);
-    }
-  }
 }
 
 .site-description {
   margin: 5px 0 0;
-  color: rgba($darkBlue, .65);
+  color: rgba($darkGreen, .65);
   font-size: 16px;
 }
 
@@ -54,21 +45,11 @@ nav {
   margin-top: 20px;
   font-family: $proxima;
   font-size: 18px;
-  transition: .2s;
 
   a {
     margin: 0 10px;
-    color: $darkBlue;
-
-    &:hover {
-      color: rgba($darkBlue, .8);
-    }
   }
 }
-
-//
-// .main
-//
 
 .posts > .post {
   padding-bottom: 2em;
@@ -102,22 +83,17 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid rgba($darkBlue, .1);
-  background-color: rgba($darkBlue, .05);
+  background-color: rgba($darkGreen, .05);
 }
 
 footer {
-  padding: 20px;
+  padding: 28px 20px 20px;
   text-align: center;
 
   a {
     margin: 0 2px;
   }
 }
-
-//
-//  New
-//
 
 .shots {
   padding: 0 10px;
@@ -139,4 +115,13 @@ footer {
   max-width: 740px;
   padding: 0 30px;
   text-align: left;
+}
+
+a {
+  color: $darkGreen;
+  transition: .2s;
+
+  &:hover {
+    color: $shooot;
+  }
 }
