@@ -43,8 +43,9 @@ google_analytics:
 url:
 
 # Your Dribbble Username and Client Access Token
-dribbble-username:
-dribbble-token:
+dribbble:
+  username:
+  token:
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://username.github.io/repository-name)
