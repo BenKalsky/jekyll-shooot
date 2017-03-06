@@ -115,6 +115,7 @@ footer {
   max-width: 740px;
   padding: 0 30px;
   text-align: left;
+  @include flex-basis(740px);
 }
 
 a {
