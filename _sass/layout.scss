@@ -117,12 +117,3 @@ footer {
   text-align: left;
   @include flex-basis(740px);
 }
-
-a {
-  color: $darkGreen;
-  transition: .2s;
-
-  &:hover {
-    color: $shooot;
-  }
-}
