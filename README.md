@@ -74,4 +74,3 @@ You can start by [opening an issue](https://github.com/benkalsky/jekyll-shooot/i
 I want to keep Jekyll Shooot as minimal as possible. Every line of code should be one that's useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it's not something that most people will use, it probably won't get merged. :guardsman:
 
 [![Analytics](https://ga-beacon.appspot.com/UA-92303047-2/jekyll-shooot/readme?pixel)](https://github.com/igrigorik/ga-beacon)
-<meta name="google-site-verification" content="B7fvmk6-3xJBZCljB4t0sQ-tanbME8hlndZnkA_oru4" />
