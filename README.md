@@ -20,7 +20,7 @@ In a few minutes you'll be set up with a minimal, responsive blog like the one b
 
 ## Quick Start
 
-### STEP 1: Fork Jekyll Shoot to your User Repository
+### STEP 1: Fork Jekyll Shooot to your User Repository
 
 Fork this repo, then rename the repository to username.github.io.
 
