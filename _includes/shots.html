@@ -1,21 +1,43 @@
 {% if site.dribbble.token %}
   {% include jribbble.html %}
   <script>
-    $.jribbble.setToken('{{ site.dribbble.token }}');
-    $.jribbble.users('{{ site.dribbble.username }}').shots({per_page: 62}).then(function(shots) {
-      var html = [];
+    (function () {
+      function renderShots(shots) {
+        var html = [];
 
-      shots.forEach(function(shot) {
-        html.push(
-          '<div class="shotsItem col-lg-3 col-md-4 col-sm-6">' +
-            '<a href="' + shot.html_url + '" target="_blank">' +
-              '<img src="' + shot.images.normal + '">' +
-            '</a>' +
-          '</div>'
-        );
-      });
+        if (Array.isArray(shots)) {
+          shots.forEach(function (shot) {
+            html.push(
+              '<div class="shotsItem col-lg-3 col-md-4 col-sm-6">' +
+                '<a href="' + shot.html_url + '" target="_blank">' +
+                  '<img src="' + shot.images.normal + '" alt="' + (shot.title || 'Dribbble shot') + '">' +
+                '</a>' +
+              '</div>'
+            );
+          });
+        }
 
-      $('.shots').html(html.join(''));
-    });
+        $('.shots').html(html.join(''));
+      }
+
+      function handleError(response) {
+        if (response && response.error) {
+          console.error('Dribbble API error:', response.error);
+        }
+      }
+
+      try {
+        jribbble.setToken('{{ site.dribbble.token }}');
+        jribbble.shots({ per_page: 62 }, function (response) {
+          if (Array.isArray(response)) {
+            renderShots(response);
+          } else {
+            handleError(response);
+          }
+        });
+      } catch (error) {
+        console.error('Unable to load Dribbble shots:', error);
+      }
+    })();
   </script>
 {% endif %}

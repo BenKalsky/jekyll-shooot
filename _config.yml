@@ -42,7 +42,7 @@ google_analytics:
 # Used for Sitemap.xml and your RSS feed
 url:
 
-# Your Dribbble Username and Client Access Token
+# Your Dribbble Username (optional) and Client Access Token
 dribbble:
   username:
   token:
